@@ -15,8 +15,8 @@ public class Main {
         try{
             myPerson.isOlderAge();
         }catch(NullPointerException e){
-            System.err.println("The following error occurs: " + e.getClass().getSimpleName());
-            System.out.println("This error can appear when an objet is not initialized.");
+            System.err.println("The following exception occurs: " + e.getClass().getSimpleName());
+            System.out.println("This exception can appear when an objet is not initialized.");
         }finally {
             System.out.println("Finalized.");
         }
